@@ -1,0 +1,4 @@
+FROM wordpress:6-php8.2-apache
+
+# Copy custom ini file
+COPY conf.d/custom.ini $PHP_INI_DIR/conf.d/
