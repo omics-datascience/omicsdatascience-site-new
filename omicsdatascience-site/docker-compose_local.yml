@@ -7,7 +7,7 @@ services:
         ports:
             - '8080:80'
         environment:
-            WORDPRESS_DB_HOST: db
+            WORDPRESS_DB_HOST: exampledb
             WORDPRESS_DB_USER: exampleuser
             WORDPRESS_DB_PASSWORD: examplepass
             WORDPRESS_DB_NAME: exampledb
@@ -30,7 +30,7 @@ services:
 volumes:
     wordpress:
         external: true
-        name: nubaio_site_wordpress
+        name: omicsdatascience_site_wordpress
     db:
         external: true
-        name: nubaio_site_db
+        name: omicsdatascience_site_db

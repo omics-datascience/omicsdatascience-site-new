@@ -22,7 +22,7 @@ services:
 volumes:
     wordpress:
         external: true
-        name: nubaio_site_wordpress
+        name: omicsdatascience_site_wordpress
     db:
         external: true
-        name: nubaio_site_db
+        name: omicsdatascience_site_db
